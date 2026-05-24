@@ -1,0 +1,21 @@
+# 编译产物
+*.o
+*.out
+HTTP_server
+HTTP_server_epoll_ET
+echo_server
+echo_server_ET
+echo_server_LT
+test_parser
+
+# 测试用的大文件
+www/big.bin
+
+# 编辑器临时文件
+.vscode/
+*.swp
+*~
+
+# Linux 系统
+core
+core.*
